@@ -9,6 +9,6 @@ production:
   # this one works after deployment on heroku
 
   # url: redis://localhost:3333/cable
-url: redis://redistogo:44f3a8bea48d9c08ed06e00b708d9db2@cod.redistogo.com:10043/
+  url: redis://redistogo:44f3a8bea48d9c08ed06e00b708d9db2@cod.redistogo.com:10043/
   # channel_prefix: prj_server_production
 # url: <%= ENV["REDIS_URL"] %>
