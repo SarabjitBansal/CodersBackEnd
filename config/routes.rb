@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root :to =>'pages#home'
   resources :messages
   post 'user_token' => 'user_token#create'
     get '/users/search/:loc' => 'users#search'
