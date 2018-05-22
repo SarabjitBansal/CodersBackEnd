@@ -10,7 +10,7 @@ Message.destroy_all
 
 User.destroy_all
 
-u1 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526546909/o-bill-facebook.jpg.jpg', :name => 'Bill1', :email => 'bill1@gmail.com', :location => 'Melbourne',  :password => 'bill1', :description => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+u1 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526546909/o-bill-facebook.jpg', :name => 'Bill Murray', :email => 'bill@gmail.com', :location => 'Melbourne',  :password => 'bill', :description => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 :keyskills => 'rails, react',:githubu =>'https://github.com/SarabjitBansal',
 :resumeu =>'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526951188/a3ne7kfmgaf2pdx7aqde.pdf' )
 
@@ -29,7 +29,7 @@ u5 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v15
 :keyskills => 'javascript',:githubu => 'https://github.com/andrew',
 :twitteru =>'https://twitter.com/teabass')
 
-u7 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526951708/1060.jpg',
+u7 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526951710/463230.jpg',
 :name => 'Taylor Otwell', :email => 'Taylor@gmail.com', :location => 'Manly',
 :password => 'Taylor',:description => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 :keyskills => 'Php,C,javascript',:githubu => 'https://github.com/taylorotwell',
