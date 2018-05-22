@@ -10,9 +10,9 @@ Message.destroy_all
 
 User.destroy_all
 
-u1 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526546905/entertainment-2013-01-bill-murray-bill-murray-300.jpg', :name => 'Bill1', :email => 'bill1@gmail.com', :location => 'Melbourne',  :password => 'bill1', :description => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',:keyskills => 'rails, react',:githubu =>'https://github.com/SarabjitBansal' )
-u2 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526546905/51janjhtTwL._SY445_.jpg', :name => 'Bill2', :email => 'bill2@gmail.com', :location => 'Elizabeth Bay', :password => 'bill2',:description => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',:keyskills => 'react')
-u3 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526546909/o-bill-facebook.jpg', :name => 'Bill3', :email => 'bill3@gmail.com', :location => 'Woollahra',  :password => 'bill3',:description => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',:keyskills => 'javascript')
+u1 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526546909/o-bill-facebook.jpg.jpg', :name => 'Bill1', :email => 'bill1@gmail.com', :location => 'Melbourne',  :password => 'bill1', :description => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+:keyskills => 'rails, react',:githubu =>'https://github.com/SarabjitBansal',
+:resumeu =>'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526951188/a3ne7kfmgaf2pdx7aqde.pdf' )
 
 
 
@@ -20,7 +20,8 @@ u4 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v15
 :name => 'Fabien Potencier', :email => 'Fabien@gmail.com', :location => 'San Francisco',
 :password => 'Fabien',:description => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 :keyskills => 'Magento,Rest,Python,Ruby on rails,Apache,Drupal,PostgreSQL',:githubu => 'https://github.com/fabpot',
-:linkedinu =>'https://www.linkedin.com/in/fabienpotencier')
+:linkedinu =>'https://www.linkedin.com/in/fabienpotencier',
+:resumeu => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526954222/Academic-Cv-Template.jpg')
 
 u5 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526951708/1060.jpg',
 :name => 'Andrew Nesbitt', :email => 'Andrew@gmail.com', :location => 'Chatswood',
@@ -31,7 +32,8 @@ u5 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v15
 u7 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526951708/1060.jpg',
 :name => 'Taylor Otwell', :email => 'Taylor@gmail.com', :location => 'Manly',
 :password => 'Taylor',:description => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-:keyskills => 'Php,C,javascript',:githubu => 'https://github.com/taylorotwell')
+:keyskills => 'Php,C,javascript',:githubu => 'https://github.com/taylorotwell',
+:resumeu => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526954222/Academic-Cv-Template.jpg')
 
 u8 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526951710/64996.jpg',
 :name => 'Alex Crichton', :email => 'Alex@gmail.com', :location => 'San Francisco',
@@ -48,12 +50,12 @@ u10 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1
 :password => 'Nelson',:description => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 :keyskills => 'Elm,babel,javascript',:githubu => 'https://github.com/nelsonic')
 
-u11 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526951710/194400.jpg',
+u11 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526951709/643505.jpg',
 :name => 'Jonatha Nong', :email => 'Jonatha@gmail.com', :location => 'Hobart',
 :password => 'Jonatha',:description => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 :keyskills => 'expressjs,pillarjs,javascript',:githubu => 'https://github.com/jonathanong')
 
-u12 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526951710/194400.jpg',
+u12 = User.create(:image => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526951708/618009.jpg',
 :name => 'Mike McNeil', :email => 'Mike@gmail.com', :location => 'Flemington',
 :password => 'Mike',:description => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 :keyskills => 'expressjs,pillarjs,javascript',:githubu => 'http://res.cloudinary.com/dbenxy2yz/image/upload/v1526951708/618009.jpg')
